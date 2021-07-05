@@ -1,4 +1,4 @@
 # MemoryCards
 Jogo criado por João Franco para Host Hotel Systems
-![Alt text](img/KioskMockup.jpg?raw=true "Title")
+![Alt text](img/iPadMockup.jpg?raw=true "Title")
 
