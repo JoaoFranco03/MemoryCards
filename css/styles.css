@@ -1,0 +1,55 @@
+/* Animated Gradient */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/* Panels */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background: linear-gradient(-45deg, #9dee52, #3c86e7, #7915a7, #b84f77);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Cards */
+img {
+  border-radius: 10px;
+  border: 2px solid white;
+}
+
+/* Cards Grid */
+.grid {
+  height: 300px;
+  width: 434px;
+}
